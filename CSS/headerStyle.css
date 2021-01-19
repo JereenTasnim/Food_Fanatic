@@ -1,0 +1,186 @@
+body
+{
+	background-image: url("../images/background.jpg");
+	background-color: rgb(0,171,236);
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+	width: 80%;
+	height: 100%;
+	float: left;
+	margin-left: 10%;
+	background-color: white;
+	box-shadow: 2px 2px 20px white;
+}
+
+.header
+{
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+
+.logo-hotline
+{
+	width: 100%;
+	height: 60%;
+	float: left;
+}
+
+.logo
+{
+	width: 40%;
+	height: 100%;
+	float: left;
+	margin-left: 2%;
+}
+
+.search-box
+{
+	width: 11%;
+	height: auto;
+	float: left;
+	margin-top: 2%;
+}
+
+.search-div
+{
+	width: 20%;
+	height: auto;
+	margin-top: 3.2%;
+	margin-left: 32%;
+	z-index: 10;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 0px 5px grey;
+}
+
+
+.hotline
+{
+	width: 26%;
+	height: 100%;
+	float: left;
+	margin-left: 20%;
+}
+
+.navigation
+{
+	width: 100%;
+	height: 40%;
+	float: left;
+	background-color: rgb(0,77,127);
+	color: white;
+}
+
+.navigation a:link, a:visited {
+	margin-top: 0.2%;
+	margin-bottom: 0.2%;
+    background-color: rgb(0,171,236);
+    color: white;
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+
+
+.navigation a:hover, a:active {
+    background-color: white;
+    color: rgb(0,77,127);
+}
+
+.navigation a
+{
+	color: white;
+}
+
+.body a
+{
+	color: rgb(0,171,236);
+}
+
+.gap
+{
+	margin-left: 72%;
+}
+
+.body
+{
+	height: 70%;
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+
+.search-name
+{
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+
+
+
+.body-action
+{
+	height: 100%;
+	width: 20%;
+	float: left;
+	padding-left: 1%;
+	padding-top: 2%;
+	background-color: #fff8e1;
+}
+
+.body-action-result
+{
+	margin-top: 2%;
+	height: 100%;
+	width: 70%;
+	float: right;
+}
+
+a.admin:link, a.admin:visited {
+    color: #00897b;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #00897b;
+    border-radius: 8px;
+    width: 70%;
+}
+
+a.admin:hover, a.admin:active {
+    background-color: #00897b;
+    color: white;
+    border: 2px solid #e57373;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.body_add_branch
+{
+	display: block;
+}
+
+.body_add_food
+{
+	display: none;
+}
+
+.footer
+{
+	width: 100%;
+	height: 10%;
+	float: left;
+	background-color: rgb(0,77,127);
+	color: white;
+}
